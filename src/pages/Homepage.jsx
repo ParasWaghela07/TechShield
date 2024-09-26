@@ -46,15 +46,15 @@ function Homepage(){
             </div>
 
             <div className="flex items-center justify-center lg:justify-between max-w-[1200px] w-[80%] h-[85%]">
-                <div className="flex flex-col gap-y-5  w-[50%] animate-fadeIn">
-                    <div className="text-xl lg:text-3xl font-light">Stay Protected! <br />Subscribe for instant updates on your product’s vulnerabilities and keep your devices safe.</div>
-                    <div className="text-xl lg:text-3xl font-light">Act Now and Stay Secure! </div>
-                    <div className="flex gap-x-5 items-center flex-col lg:flex-row">
-                        <div className="bg-black text-white px-4 py-2 lg:text-2xl rounded-lg flex items-center gap-x-3 cursor-pointer">
+                <div className="flex flex-col gap-y-5  w-[50%]">
+                    <div className="text-xl lg:text-3xl font-light animate-fadeIn1">Stay Protected! <br />Subscribe for instant updates on your product’s vulnerabilities and keep your devices safe.</div>
+                    <div className="text-xl lg:text-3xl font-light animate-fadeIn2">Act Now and Stay Secure! </div>
+                    <div className="flex gap-x-5 items-center flex-col lg:flex-row animate-fadeIn3">
+                        <div className="bg-black text-white hover:bg-white hover:text-black transition duration-500 px-4 py-2 lg:text-2xl rounded-lg flex items-center gap-x-3 cursor-pointer hover:drop-shadow-xl">
                             <p>Subscribe</p>
                             <FaArrowAltCircleRight />
                         </div>
-                        <p className="lg:text-2xl text-gray-800 font-bold underline cursor-pointer">More info</p>
+                        <p className="lg:text-2xl text-gray-800 font-bold underline cursor-pointer hover:text-gray-600 transition duration-200">More info</p>
                     </div>
                 </div>
                 <img src="pass.png" className="hidden md:block md:w-[500px]"/>

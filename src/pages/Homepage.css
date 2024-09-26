@@ -2,7 +2,7 @@
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(50px);
     }
     100% {
         opacity: 1;
@@ -10,8 +10,16 @@
     }
 }
 
-.animate-fadeIn {
+.animate-fadeIn1 {
     animation: fadeIn 1s ease forwards;
+}
+
+.animate-fadeIn2 {
+    animation: fadeIn 1s 0.2s ease forwards;
+}
+
+.animate-fadeIn3 {
+    animation: fadeIn 1s 0.5s ease forwards;
 }
 
 
