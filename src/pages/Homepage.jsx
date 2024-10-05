@@ -50,7 +50,7 @@ function Homepage(){
                     <div className="text-xl lg:text-3xl font-light animate-fadeIn1">Stay Protected! <br />Subscribe for instant updates on your product’s vulnerabilities and keep your devices safe.</div>
                     <div className="text-xl lg:text-3xl font-light animate-fadeIn2">Act Now and Stay Secure! </div>
                     <div className="flex gap-x-5 items-center flex-col lg:flex-row animate-fadeIn3">
-                        <div className="bg-black text-white hover:bg-white hover:text-black transition duration-500 px-4 py-2 lg:text-2xl rounded-lg flex items-center gap-x-3 cursor-pointer hover:drop-shadow-xl">
+                        <div className="bg-black text-white hover:bg-white hover:text-black transition duration-300 px-4 py-2 lg:text-2xl rounded-lg flex items-center gap-x-3 cursor-pointer hover:drop-shadow-xl" onClick={()=>{navigate('/addemail')}}>
                             <p>Subscribe</p>
                             <FaArrowAltCircleRight />
                         </div>

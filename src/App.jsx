@@ -3,7 +3,9 @@ import { Routes,Route, useNavigate } from 'react-router-dom'
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Homepage from './pages/Homepage';
+import AddEmail from './pages/AddEmail';
 import { useEffect } from 'react';
+import AddDevice from './pages/AddDevice';
 
 function App() {
   const navigate=useNavigate();
@@ -40,6 +42,8 @@ function App() {
       <Route path="/" element={<Signup/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/homepage" element={<Homepage/>}/>
+      <Route path='/addemail' element={<AddEmail/>}/>
+      <Route path='/adddevice' element={<AddDevice/>}/>
     </Routes>
   </div>
   )

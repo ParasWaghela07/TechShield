@@ -75,7 +75,7 @@ function Signup(){
 
 
     return(
-        <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center gap-y-10 bg-gray-50  text-blue-950 overflow-x-hidden overflow-y-hidden">
+        <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center gap-y-10 bg-gray-100  text-blue-950 overflow-x-hidden overflow-y-hidden">
             <div className="flex lg:flex-row flex-col-reverse gap-y-7 items-center justify-center lg:justify-between max-w-[1200px] w-[80%] ">
                 <div className="flex gap-x-10">
                     <p className="text-3xl cursor-pointer underline underline-offset-[15px]">Signup</p>
