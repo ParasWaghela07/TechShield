@@ -5,6 +5,8 @@ const {login}=require('../controllers/login');
 const {signup}=require('../controllers/signup');
 const {auth}=require('../middlewares/auth');
 const {logout}=require('../controllers/logout');
+const {AddDeviceName}=require('../controllers/adddevicename');
+
 
 router.post('/login',login);
 router.post('/signup',signup);
@@ -16,4 +18,6 @@ router.get('/checkUserCookie',auth,(req,res)=>{
 })
 
 router.get('/logout',logout);
+
+router.post('/AddDeviceName',AddDeviceName);
 module.exports=router;
